@@ -1,4 +1,5 @@
-##Guide to Projectors for Interactive Installations </h2>
+## Guide to Projectors for Interactive Installations
+
 #### Original Text by [Blair Neal](http://blairneal.com) 2014
 
 Video projectors are one of the most important tools for creators of interactive installations. The information for projectors is available on various websites, but this 2 part guide will focus on their use in production and interactive environments. Part 1 will focus on the projector as hardware(lenses, lumens, surfaces etc), and part 2 will go into more details on the software and calibration considerations. This will gather some of that disparate knowledge into the important bits you need to make informed decisions about creating a high quality experience.
@@ -40,28 +41,28 @@ Visiting the installation space in person is optimal when starting to plan. A vi
 <small><a href="http://www.creativeapplications.net/environment/onion-skin-by-antivj-re-composition-of-time-and-space-using-perspective/">Onion Skin by Olivier Ratsi [Antivj</a>] – Re-composition of time and space using perspective</small>
 #Overview of Projector Types
 There are several different kinds of imaging and illumination methods used in video projectors, and each type has their own list of pros and cons. Each technology uses a different combination of light sources, mirrors, filters and lenses. Below, I'll briefly explain each type, and you can check out some links in my sources for further reading:
-##DLP
+## DLP
 ![DLP](images/DLP_projection_diagram.png)
 
 This is one of the most commonly used projector types, and they often provide the most bang for your buck. A big selling point on DLP technology is that it can display much darker blacks than LCD technology which is especially helpful for illusions like projection mapping. There are a few different styles of DLP, Single chip and 3-Chip. In single chip DLP,  a light source is passed through a rapidly spinning multi-segment color wheel of 3 or more dichroic glass sections (7 or more color segments is a more "desirable" spec than 3). That light then bounces off a matrix of electrically controlled microscopic mirrors that determine the brightness of each individual pixel. The beam then passes through filters and out through a lens. The timing between the color wheel and the movement of the mirrors determines the color of the output.
 
 With DLP projectors, the most noticeable side effect of this imaging method is a RGB effect that appears when you quickly move your eyes side to side. You will also notice a subtle rainbow banding effect if you capture the projection through certain types of cameras, especially CMOS DSLR's. You can minimize this effect by adjusting your camera's shutter speed to be slower. This banding effect is minimized or non-existent on 3-chip DLP projectors that split the light path in a similar way to how LCD projectors work so it syncs colors without a color wheel. A 3-chip DLP is a little more expensive though, and you'll mostly find it on cinema projectors and ones with more than 10k lumens.
-##LCD
+## LCD
 ![DLP](images/3LCD_projector.png)
 There are a couple different LCD technologies for projection, but 3LCD is probably the most recommended in terms of image quality. With LCD projection, a light source is bounced through 3 dichroic filters that turn the white light into precise red/green/blue frequencies. Those differently colored beams of light then pass through liquid crystal arrays that turn on and off their pixels and block the different light patterns to form the image. Those LCD's are then recombined with a prism that recombines the 3 colored segments into a single light beam/image that then passes through a lens. Whew. LCD projection doesn't have the rainbow banding effect that DLP does and tends to be easier to film, but it doesn't have the darkest blacks, so it doesn't disappear as much when the screen is just displaying a black image.
 
 LCD Projector Teardown Video: [Youtube Link](http://www.youtube.com/watch?v=ieJJUhJkyBc)
-##LCoS
+## LCoS
 Liquid crystal on silicon is almost a hybrid of how DLP and LCD work, and can provide advantages over both. LCoS has a reflective portion, but is also modulated by liquid crystal. There is no color wheel in this setup, as it does the light splitting technique similar to LCD. The primary current issue with this technology is that the contrast ratio tends to be much lower than DLP or LCD, so your contrast range from true black to bright white is reduced.
-##Hybrid
+## Hybrid
 There aren't many of these yet, but a couple brands have come out with hybrid light source projectors that boast extremely long lamp life (20,000 hours compared to the normal 2-3000 hours of a traditional lamp). These still use some of the traditional imaging sources as above, like DLP and LCD, but they replace their lamp bulb with a different solid state source like LED, Laser, etc etc.
-##Laser Diode
+## Laser Diode
 This is another fairly new player that isn't wide spread yet. I've seen it in a new <a href="http://pro.sony.com/bbsc/ssr/show-projectors/resource.solutions.bbsccms-assets-show-projectors-laserprojectorslandingpage.shtml">Sony projector</a> and the yet-to-be released <a href="http://www.red.com/products/redray">RedRay 4K</a>. You can also find this as a light source in some of the smaller Pico projectors like Microvision's. Primary advantage of a light source like this is that you don't have to worry about heat dissipation as much as you would with a Xenon bulb.
-##CRT
+## CRT
 CRT is almost nonexistent in this day and age, but hey, maybe you want to have a vintage party with a laser disc player or something. CRT projection was used a lot in some of those large 90's era rear projection big screen TV's. They feature 3 CRT guns in red, green and blue that fire electrons onto a phosphor surface, similar to a standard CRT. Then they are passed through a lens, and onto a projection surface (typically rear projection). The guns are very sensitive about their positioning and typically require re-calibration after moving them around. They are now mostly an interesting thing to scavenge for parts.
-#Different classes of projectors
+# Different classes of projectors
 Your project may be a small interactive tabletop game with a single pico projector in a dark room or a 200ft x 100ft projection bonanza with a dozen large-venue projectors. It's very helpful to know and understand the capabilities of the ranges of the pico, the portable, the installation, and the large venue projectors.
-##Pico and Pocket projectors
+## Pico and Pocket projectors
 Price range: $100-500
 Brightness range: 10 lumens to 500 lumens
 Resolution range: 640x480 to 1280x800
@@ -70,7 +71,7 @@ Resolution range: 640x480 to 1280x800
 ![pocketprojector](images/IMG_343713.jpg)
 
 These tend to be used in very specialized situations as they tend to have a limited range on the brightness they can provide (usually less than a couple hundred lumens, if that). Don't expect to have a suitable image that is larger than a couple feet in width, even in total darkness. Pico projectors use different light sources like LED and lasers. Some even contain batteries for battery powered operation (or can be hacked to be battery powered). These tiny things also tend to have reduced resolution and you will more commonly find ones that are more likely in the 854x480 range than the 1080p range. Also, since their primary purpose is for enlarging powerpoints and small movie screens, you can usually be limited by specs on color reproduction and contrast ratio. One of the neatest qualities about a <a href="http://www.projectorcentral.com/Microvision-SHOWWX+_Laser_Pico.htm">select few</a> laser pico projectors is the fact that they have an infinite depth of field and require no focusing, so you can project on very close up things clearly. Their price is usually comparable to lower end office projectors in the 300-500 dollar range.
-##Portable projectors
+## Portable projectors
 Price Range: $400 to $2,000
 Brightness Range: 500 lumens to 3000 lumens
 Resolution Range: 1024x768 to 1080p
@@ -83,7 +84,7 @@ This class is mostly for the cheaper portable projectors that you might find in 
 And unless it's dark DARK night time and your screen is a reasonable size, don't even think about using these outside.
 
 ![projector shot](images/cloudpink02-640x426.jpg)
-##Installation and Home Theater projectors
+## Installation and Home Theater projectors
 Price Range: $2000 - $10,000
 Brightness range: 3000-10000 lumens
 Resolution range: 1024x768 to 1080p
@@ -96,7 +97,7 @@ These projectors also start to bring in multiple lens options for short throw 0.
 If you're trying to get more than a 20ft wide image or are dealing with stage lighting, see my section below about properly calculating brightness and size before you drop your coins on a specific one.
 
 You're also much more likely to buy one of these projectors for a short run than rent one. If you are running and installation for a week or more, it quickly becomes more cost effective to just purchase one of these classes of projectors (or the portables) because you would be paying the same amount in a week or so anyway.
-##Large venue projectors
+## Large venue projectors
 Price Range: $5000 - $Infinity
 Brightness Range: 5000 lumens to 42,000 lumens (I've heard 100k lumens before, but can't find a reference)
 Resolution Range: 1024x768 to 4K
@@ -115,9 +116,9 @@ Like installation projectors, large venue projectors often offer multiple lens o
 You're also more likely to have to rent one of these projectors rather than purchase, so be prepared to source a rental house (who often require pricey production insurance, a solo artist will find it difficult to rent one!). Also owning one of these would be a pain because they are heavy, awkward, expensive to maintain, and you would need to rent them out yourself in order to break even. Prices vary on length of rental and type of equipment. From personal experience, I can tell you that a 20k lumen projector will run you roughly $1000-1500/day (including your lens choice), and 6k-10k lumens run around $700-1000 a day depending on lenses and HD requirements.
 
 I wouldn't suggest planning to rent one of the larger ones for a long term installation unless you have some serious budget. The prices to purchase these shoot up sharply after about 10k lumens. Most 20k lumens and above will run you $40,000 to $80,000 and beyond.
-#How to calculate projector intrinsics/read a spec sheet
+# How to calculate projector intrinsics/read a spec sheet
 Being able to interpret a projector spec sheet is an invaluable skill to have when planning your project. You'll have to separate the parts that are important, from the values that aren't standardized or are there for marketing fluff-
-###Image
+### Image
 <b>Resolution:</b> This is the actual maximum resolution the projector is capable of displaying. You can send it higher resolutions than this, but the physical number of pixels will remain the same. If it's native resolution is 1280x800 and you send it 1080p, there is just going to be down sampling to match native resolution. If you see the spec "Supported Resolutions"  - Warning! This spec is nearly useless and incredibly misleading. Only pay attention to the native resolution if you want the physical pixel count. Supported resolutions just means the resolutions that the projector is capable of accepting and then down sampling or up sampling to match its native resolution. There are 1024x768 native projectors that "support" 1080p but that doesn't mean all those pixels are actually coming out of the lens.
 
 <b>Lumens:</b> This spec is somewhat standardized with ANSI units, but different manufacturers can waver a bit. A difference of a couple hundred lumens between projectors isn't much to consider if you need something slightly brighter, it's easier to think in 1000 lumen increments generally. Also, as a guidance, you'll want at minimum around 20 lumens per square foot of image.
@@ -129,11 +130,11 @@ Being able to interpret a projector spec sheet is an invaluable skill to have wh
 ![Fluidic](images/fluidic.jpg)
 
 <small><a href="http://www.creativeapplications.net/featured/fluidic-sculpture-in-motion-by-whitevoid/">Fluidic</a> – Sculpture in Motion by WHITEvoid</small>
-###Geometry</h3>
+### Geometry</h3>
 <b>Throw ratio:</b> This is probably the second most important specification behind lumens. This value gives you the ratio of the width of the projected image to the distance from the surface. For example, a throw ratio of 1:1 means that for every 1ft away from the wall, you will get 1ft of image width (and your height is determined by the aspect ratio). Sometimes this is given as some random unit like "66" @2m" which is usually diagonal size of the image at a certain distance. Lens zoom is also a related property because it allows you a small "variable" lens shift.
 
 <b>Lens Shift:</b> Lens shift is generally only available on higher end projectors. Most projectors have a slight lens offset that allows them to be below or above their screen and still have a square image (different than tilting!). Lens shift allows you to correct for this offset if necessary - just tilting the projector would result in more keystoning. Some have manual or motorized lens shift. This also lets you worry less about exact placement of your projector because you will be able to shift the beam around - just watch for vignetting on the edges!
-###Physical
+### Physical
 <b>Inputs:</b> Make a note of these to make sure you have options with VGA or HDMI or whichever. We will discuss analog versus digital connections further down.
 
 <b>Watts/Power Consumption:</b> This is important to have on hand if you're wondering if you might blow a circuit by running multiple projectors. See below on how to calculate it.
@@ -146,7 +147,7 @@ Quick note about power consumption - it's always good to know off hand how much 
 <i>300W(projector power consumption)/120V(supply voltage from outlet) = 2.5Amps</i>
 
 You could potentially run 5 (12.5A) of these theoretical 300W projectors on a single 15A circuit. Always leave yourself some headroom with power demands - know in advance if you need more dedicated circuits. Some projectors also may need a larger pull of power when they first spark the lamp, so keep that in mind when powering up.
-#Working with Throw Ratio
+# Working with Throw Ratio
 ![ThrowRatio](images/Throw_Ratio_diagram.png)
 
 Now let's talk about throw ratio and how you can make it work for you. Feel free to use the many online <a href="http://www.projectorcentral.com/projection-calculator-pro.cfm">projector calculators</a> and <a href="https://itunes.apple.com/us/app/projector-screen-calculator/id575996442?mt=8">apps</a> - but it's good practice to run the numbers yourself. Sometimes the online calculators don't have the applicable options or sort of obfuscated results expressed in odd units or diagonal size (help me, Pythagoras). Using your throw ratio only, you can easily calculate the image width and height for a given distance.
@@ -192,7 +193,7 @@ Stacking two matching projectors on top of each other does NOT mean the image 
 To stack projectors you will ideally want ones in the installation or large venue class with motorized lens shift or ones that offer perspective distortion in their hardware - otherwise aligning the images of 2 projectors to be pixel perfect can be a nearly impossible feat. Access to lens shift is preferable, followed by the projector doing the actual distortion. You can do homography distortion in software to align the two, but then you'll need to essentially double your video output to output different streams.
 #Video signal quality and cable lengths
 Your video signal path is another very important consideration when planning. Analog and digital signals have their strengths and weaknesses. You will need to ensure your computer is compatible or you have the right adapters - especially if you're working with an existing projector system in a space (S-Video anyone?)
-###DVI/HDMI
+### DVI/HDMI
 DVI and HDMI are the most common digital video cables right now. DVI can support a wide range of resolutions, and can handle the highest ranges with a dual link (DVI-D) cable. Single Link DVI is missing some of the center pins and has a lower bandwidth, it maxes out at 1920x1200 @60hz which is about 3.96gbit/s of data. Dual Link DVI cables are only technically limited by the copper bandwidth limits, DVI source limits and sync limits. Dual Link cables <a href="http://www.monoprice.com/Product?c_id=102&amp;cp_id=10209&amp;cs_id=1020902&amp;p_id=2760&amp;seq=1&amp;format=2">occasionally list</a> their bandwidth resolution limits of around 9.9gBits/second which you can use to check your intended use and how close you may be to hitting the ceiling.
 
 <i>Resolution Width * Resolution Height = Total Number of Pixels</i>
@@ -215,16 +216,16 @@ They sell longer HDMI and DVI, but unless it's really thick or your have had tim
 A final note is to pay attention to how your extender handles passing an EDID. An EDID is basically a packet of info that a video source and destination share that gives info about resolutions and timings. Without a proper EDID handshake, you'll be scratching your head "trying to figure out why this still isn't fucking working!" Some extenders send EDID over a separate Cat5 cable, so keep this in mind when constructing wiring diagrams. There are EDID Emulators and DVI Doctors that go in between a source and display. These devices can do things like "store" the EDID of a display and keep it in case you are going between your display and another device that disrupts the EDID like a switcher. Other DVI Doctors also work to clean up the DVI signal to make it easier to extend the signal, sort of like an amplifier.
 <h2>SDI/HD-SDI</h2>
 HD-SDI Cables are a great cable for sending video long distances. You'll commonly see them being used to send HD video from cameras into switcher and recording setups. They use a fairly common BNC barrel connector. You will often need a converter box to send your HDMI/DVI signal over HD-SDI since most computers don't offer that as an output option without something like a Black Magic card.
-##VGA
+## VGA
 ![VGA_noise](images/vga_noise.jpg)
 
 VGA is the most common analog cable that is still kicking around. It is still able to push 1080p and above at certain distances, but it will probably die out over the next decade as we transition to 4K. VGA cables are good in a pinch with lower resolutions at longer distances without boosters, but I wouldn't recommend them in professional use. The higher the resolution you're trying to shove down that copper pipe, the less potential success you'll have at getting your computer or projector to recognize the device at the other end because the same cable has to manage more bandwidth and needs a higher quality output device to generate the higher resolution clock timing for the analog signal. VGA also has the issue of analog distortion or a certain degree of "fuzziness" and color shifting because the colors are sent at different high speed clock frequencies, and this gets exacerbated on longer cables or on lower quality output devices. The inconsistency of analog can also mean you may get slight pixel offsets that you wouldn't get with a digital cable.
-#Maintenance, miscellaneous caveats and tricks of the trade
-##Maintenance tips:
+# Maintenance, miscellaneous caveats and tricks of the trade
+## Maintenance tips:
 NEVER (EVER!) UNPLUG A PROJECTOR with its lamp on. It can potentially destroy your expensive bulb! Projectors run their fans for a minute or two to cool the bulb in preparation for the next lamp on. If you unplug a hot projector, plug it back in and shock it with the electrical charge needed to spark it on, you risk damaging the delicate filament and either blowing your bulb out or severely reducing the lifespan. If you happen to unplug a projector while it is on, let it cool for 10-30minutes before turning it back on. Don't try to turn it back on hoping you can get the fan going or something.
 <h2>Ventilation is important!</h2>
 Projectors need to suck in new cool air, blow it over the bulb to absorb its heat, and then push it out another side. Without air flow, the bulbs temperature can rise to unsafe levels. Luckily, most projectors have detectors for this and will automatically shut off when their bulb temperature reaches a certain threshold. Still, you probably want to avoid having your projector auto-shutoff during an event or long running installation. Most manuals will also advise you not to run your projectors sideways in "portrait" mode because it will change the factory designed airflow and shorten bulb life - I haven't personally experienced a significant issue with running them portrait, but it is trickier to manage their air flow in this position. Some projectors also have a specific filament placement that can impact whether it is safe to run them in unusual configurations because the filament may not be centered within the bulb.
-##Projector placement considerations
+## Projector placement considerations
 ![ProjectorWarping](images/ProjectorOffsetDiagrams.png)
 
 In the event that you can't get enough distance to get the desired image size, you have a few options. You can get multiple projectors and edge blend them (complex setup depending on your environment). A lot of consumer ultra short throws that are closer than 0.8 throw have setups so that they bounce the beam off a mirror and overtop of the projector to get every inch of possible distance. A mirror is a good way to extend the distance of your normal projector as well, with an important caveat: you need what is called a first surface mirror, or front surface mirror. A first surface mirror has the reflective coating on the top layer rather than underneath the glass. A normal mirror with coating on the backside will have a potential to give you a double image or color distortions because of the beams bouncing from the glass and the reflective surface.
@@ -233,7 +234,7 @@ Ultra short throws and mirror solutions have a noteable side effect to plan for:
 
 ![maintenance](images/maintenance.jpg)
 
-##Misc.
+## Misc.
 A wide angle/short throw lens will have the effect of giving you a lower depth of field which would be relevant if you are doing some kind of projection mapping that would have a lot of depth to it. The focus and brightness fall off much more quickly than with a longer throw lens, so mapping with these can be a challenge. 0.4 Throw to 0.8 throw is usually a lens solution, but 0.4 and less usually involves a curved mirror which limits your ability to focus on much more than a plane.
 <h1>Experimental Tech and the Future</h1>
 The following are some links to some equipment that would be fairly unusual to see in most major productions at the moment.
